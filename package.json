@@ -1,0 +1,54 @@
+{
+  "name": "@gauravlabs/revpixel",
+  "version": "0.1.0",
+  "description": "Deterministic client-side image and video watermark restoration engine by GAURAVLABS.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/basic.test.js"
+  },
+  "keywords": [
+    "revpixel",
+    "watermark-remover",
+    "reverse-alpha",
+    "reverse-pixel",
+    "gemini",
+    "imagen",
+    "veo",
+    "image-restoration",
+    "video-restoration",
+    "webcodecs",
+    "canvas",
+    "gauravlabs"
+  ],
+  "author": "GAURAVLABS (https://gauravlabs.com)",
+  "license": "MIT",
+  "homepage": "https://aiwatermarkremover.gauravlabs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gauravvyadav/revpixel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gauravvyadav/revpixel/issues"
+  },
+  "peerDependencies": {
+    "mediabunny": ">=1.40.0"
+  },
+  "peerDependenciesMeta": {
+    "mediabunny": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
